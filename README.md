@@ -24,6 +24,11 @@ Projeto estático (HTML/CSS/JS) da landing page da Nexus Food Intelligence.
 ## Deploy
 
 - GitHub Pages: habilitar Pages no repositório e apontar para a branch `main` (root)
+- Vercel: clique aqui para importar e publicar automaticamente:
+
+  [Deploy with Vercel](https://vercel.com/new/clone?repository-url=https://github.com/dantestarken-stack/landing-page-nexus-food-intelligence)
+
+  Após importar, o site ganha um domínio `*.vercel.app` que você pode compartilhar. Opcionalmente, conecte um domínio próprio.
 
 ## Contato
 
