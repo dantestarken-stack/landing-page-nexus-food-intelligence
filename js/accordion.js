@@ -13,16 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         question.addEventListener('click', () => {
             const isActive = item.classList.contains('active');
-            const expanded = question.getAttribute('aria-expanded') === 'true';
 
-            // Close all other items (optional: remove this for multi-open)
             faqItems.forEach(other => {
-                other.classList.remove('active');
-                other.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                if (other !== item) {
+                    other.classList.remove('active');
+                    const q = other.querySelector('.faq-question');
+                    if (q) q.setAttribute('aria-expanded', 'false');
+                }
             });
 
-            // Toggle current
-            if (!isActive) {
+            if (isActive) {
+                item.classList.remove('active');
+                question.setAttribute('aria-expanded', 'false');
+            } else {
                 item.classList.add('active');
                 question.setAttribute('aria-expanded', 'true');
             }

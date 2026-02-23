@@ -46,10 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === Preload critical images ===
     const preloadImages = [
-        'assets/images/logo.png',
-        'assets/images/IMAGENS DA TELA DO CELULAR E DE ADMINISTRADOR DO CLIENTE.png',
-        'assets/images/aba de pedidos no celular e no painel de adm.png',
-        'assets/images/criativos mensais para feed.png'
+        'assets/images/logo.webp'
     ];
     preloadImages.forEach(src => {
         const img = new Image();

@@ -1121,7 +1121,7 @@
 .showcase__inner {
     display: flex;
     flex-direction: column;
-    gap: var(--space-6);
+    gap: var(--space-4);
     align-items: center;
 }
 
@@ -1145,8 +1145,7 @@
 }
 
 .showcase__device--large .showcase__image-container {
-    padding: var(--space-2);
-    /* Reduz um pouco o padding interno para a imagem brilhar mais */
+    padding: 0;
     width: 100%;
 }
 
@@ -1156,8 +1155,8 @@
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid var(--border-dark);
     border-radius: var(--radius-2xl);
-    padding: var(--space-4);
-    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
     transition: transform var(--duration-normal) var(--ease-default);
 }
 
@@ -1167,14 +1166,21 @@
 
 .showcase__image {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
     border-radius: var(--radius-xl);
     display: block;
 }
 
+/* Scale up image strongly for the first showcase block */
+
+
+/* Ensure the large device can display full image without cropping */
+/* remove overrides; use default sizing */
+
 .showcase__label {
     position: absolute;
-    bottom: calc(var(--space-4) * -1);
+    bottom: calc(var(--space-2) * -1);
     left: 50%;
     transform: translateX(-50%);
     background: var(--gradient-accent);

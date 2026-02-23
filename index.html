@@ -10,17 +10,21 @@
         content="cardápio digital, restaurante, delivery, marketing para restaurantes, inteligência artificial, CRM restaurante">
     <meta name="author" content="Nexus Food Intelligence">
     <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#060d18">
+    <meta name="color-scheme" content="dark light">
+    <link rel="canonical" href="https://www.nexusfood.com.br">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Nexus Food Intelligence — Seu restaurante mais inteligente">
     <meta property="og:description"
         content="Cardápio digital + marketing automatizado + IA para restaurantes. Transforme seu faturamento.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://nexusfood.com.br">
-    <meta property="og:image" content="assets/images/og-image.png">
+    <meta property="og:url" content="https://www.nexusfood.com.br">
+    <meta property="og:image" content="assets/images/logo.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
 
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,7 +67,10 @@
         <div class="container">
             <div class="navbar__inner">
                 <a href="#" class="navbar__logo" aria-label="Nexus Food Intelligence - Home">
-                    <img src="assets/images/logo.png" alt="Nexus Food Intelligence" width="160" height="auto">
+                    <picture>
+                        <source srcset="assets/images/logo.webp" type="image/webp">
+                        <img src="assets/images/logo.png" alt="Nexus Food Intelligence" width="160" fetchpriority="high">
+                    </picture>
                 </a>
 
                 <div class="navbar__links" id="navbar-links">
@@ -79,7 +86,7 @@
                     Falar com Consultor
                 </a>
 
-                <button class="navbar__hamburger" id="navbar-hamburger" aria-label="Abrir menu" aria-expanded="false">
+                <button class="navbar__hamburger" id="navbar-hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navbar-mobile">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -282,8 +289,10 @@
                 <!-- First Image: Main View -->
                 <div class="showcase__device showcase__unified reveal reveal-scale">
                     <div class="showcase__image-container">
-                        <img src="assets/images/IMAGENS DA TELA DO CELULAR E DE ADMINISTRADOR DO CLIENTE.png"
-                            alt="Plataforma Nexus Food Intelligence - App e Gestão" class="showcase__image">
+                        <picture>
+                            <source srcset="assets/images/IMAGENS DA TELA DO CELULAR E DE ADMINISTRADOR DO CLIENTE.webp" type="image/webp">
+                            <img src="assets/images/IMAGENS DA TELA DO CELULAR E DE ADMINISTRADOR DO CLIENTE.png" alt="Plataforma Nexus Food Intelligence - App e Gestão" class="showcase__image" loading="lazy" decoding="async">
+                        </picture>
                     </div>
                     <span class="showcase__label">Cardápio do Cliente + Seu Painel de Gestão</span>
                 </div>
@@ -291,8 +300,10 @@
                 <!-- Second Image: Orders Tab -->
                 <div class="showcase__device showcase__unified reveal reveal-scale">
                     <div class="showcase__image-container">
-                        <img src="assets/images/aba de pedidos no celular e no painel de adm.png"
-                            alt="Gestão de Pedidos Nexus Food Intelligence" class="showcase__image">
+                        <picture>
+                            <source srcset="assets/images/aba de pedidos no celular e no painel de adm.webp" type="image/webp">
+                            <img src="assets/images/aba de pedidos no celular e no painel de adm.png" alt="Gestão de Pedidos Nexus Food Intelligence" class="showcase__image" loading="lazy" decoding="async">
+                        </picture>
                     </div>
                     <span class="showcase__label">Faça alterações no seu cardápio de forma fácil</span>
                 </div>
@@ -300,8 +311,10 @@
                 <!-- Third Image: Monthly Creatives -->
                 <div class="showcase__device showcase__unified showcase__device--large reveal reveal-scale">
                     <div class="showcase__image-container">
-                        <img src="assets/images/criativos mensais para feed.png"
-                            alt="Criativos Mensais Nexus Food Intelligence" class="showcase__image">
+                        <picture>
+                            <source srcset="assets/images/criativos mensais para feed.webp" type="image/webp">
+                            <img src="assets/images/criativos mensais para feed.png" alt="Criativos Mensais Nexus Food Intelligence" class="showcase__image" loading="lazy" decoding="async">
+                        </picture>
                     </div>
                     <span class="showcase__label">Criativos mensais para feed</span>
                 </div>
@@ -888,7 +901,10 @@
                 <!-- Brand -->
                 <div class="footer__brand">
                     <a href="#" class="footer__brand-logo">
-                        <img src="assets/images/logo.png" alt="Nexus Food Intelligence" width="140" height="auto">
+                        <picture>
+                            <source srcset="assets/images/logo.webp" type="image/webp">
+                            <img src="assets/images/logo.png" alt="Nexus Food Intelligence" width="140" loading="lazy" decoding="async">
+                        </picture>
                     </a>
                     <p class="footer__brand-text">
                         Transformando restaurantes em negócios inteligentes com tecnologia, dados e automação.
@@ -919,15 +935,15 @@
                     <h4 class="footer__column-title">Contato</h4>
                     <div class="footer__contact-item">
                         <i data-lucide="message-circle"></i>
-                        <a href="https://wa.me/5547999999999" target="_blank" rel="noopener">WhatsApp</a>
+                        <a href="https://wa.me/5547992212108" target="_blank" rel="noopener">WhatsApp: (47) 99221-2108</a>
                     </div>
                     <div class="footer__contact-item">
                         <i data-lucide="mail"></i>
-                        <span>contato@nexusfood.com.br</span>
+                        <a href="mailto:nexusfoodintelligence@gmail.com">nexusfoodintelligence@gmail.com</a>
                     </div>
                     <div class="footer__contact-item">
                         <i data-lucide="map-pin"></i>
-                        <span>Blumenau, SC — Brasil</span>
+                        <span>R. João Pessoa, 1183 - Velha, Blumenau - SC, 89036-000</span>
                     </div>
                 </div>
             </div>

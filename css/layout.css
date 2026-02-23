@@ -37,6 +37,12 @@ body {
     position: relative;
 }
 
+/* Preview section: tighter vertical spacing */
+#preview.section {
+    padding-top: var(--space-12);
+    padding-bottom: var(--space-12);
+}
+
 /* Seções escuras */
 .section--dark {
     background-color: var(--bg-primary);
@@ -214,6 +220,11 @@ body {
         padding-bottom: var(--space-20);
     }
 
+    #preview.section {
+        padding-top: var(--space-12);
+        padding-bottom: var(--space-12);
+    }
+
     .section__title {
         font-size: var(--text-4xl);
     }
@@ -249,6 +260,11 @@ body {
     .section {
         padding-top: var(--space-24);
         padding-bottom: var(--space-24);
+    }
+
+    #preview.section {
+        padding-top: var(--space-12);
+        padding-bottom: var(--space-12);
     }
 
     .section__title {
