@@ -39,8 +39,8 @@ body {
 
 /* Preview section: tighter vertical spacing */
 #preview.section {
-    padding-top: var(--space-12);
-    padding-bottom: var(--space-12);
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-16);
 }
 
 /* Seções escuras */
@@ -58,6 +58,17 @@ body {
 .section--light {
     background-color: var(--bg-light);
     color: var(--text-on-light);
+}
+
+/* Seção clara alternativa (cinza muito claro) */
+.section--light-alt {
+    background-color: var(--bg-light-alt);
+    color: var(--text-on-light);
+}
+
+.section--light-alt .section__subtitle,
+.section--light-alt .text-body {
+    color: var(--text-body-light);
 }
 
 .section--light .section__subtitle,
@@ -221,8 +232,8 @@ body {
     }
 
     #preview.section {
-        padding-top: var(--space-12);
-        padding-bottom: var(--space-12);
+        padding-top: var(--space-20);
+        padding-bottom: var(--space-20);
     }
 
     .section__title {
@@ -263,8 +274,8 @@ body {
     }
 
     #preview.section {
-        padding-top: var(--space-12);
-        padding-bottom: var(--space-12);
+        padding-top: var(--space-24);
+        padding-bottom: var(--space-24);
     }
 
     .section__title {

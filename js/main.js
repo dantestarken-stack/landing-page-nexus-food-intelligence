@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === Preload critical images ===
     const preloadImages = [
-        'assets/images/logo.webp'
+        'assets/images/LOGO TRANSPARENTE FULL HD.webp'
     ];
     preloadImages.forEach(src => {
         const img = new Image();
